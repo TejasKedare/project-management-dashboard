@@ -18,7 +18,7 @@
 * [✓] Create App folder (src/app)
 * [✓] Move App.tsx into app/
 * [✓] Setup Routing (react-router)
-* [ ] Create Layout (Sidebar + Header)
+* [✓] Create Layout (Sidebar + Header)
 * [ ] Setup Redux Toolkit store
 * [ ] Setup TanStack Query client
 * [ ] Create AppProviders (Redux + Query + Router)
