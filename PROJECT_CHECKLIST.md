@@ -19,11 +19,10 @@
 * [✓] Move App.tsx into app/
 * [✓] Setup Routing (react-router)
 * [✓] Create Layout (Sidebar + Header)
-* [ ] Setup Redux Toolkit store
+* [✓] Setup Redux Toolkit store
 * [ ] Setup TanStack Query client
 * [ ] Create AppProviders (Redux + Query + Router)
 * [ ] Wrap app with providers in main.tsx
-
 ---
 
 ## ✅ PHASE 2 — UI Foundation
@@ -32,7 +31,7 @@
 * [ ] Setup global styling (Tailwind / CSS setup)
 * [ ] Implement dark/light theme toggle
 * [ ] Create reusable layout components
-* [ ] Add loading skeletons/spinners
+* [ ] Add loading spinners
 
 ---
 
