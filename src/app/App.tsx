@@ -12,10 +12,10 @@ function App() {
     <>
       <p >Tejas</p>
 
-      <div>
-        <button onClick={() => dispatch(increment())}>Add</button>
-        <button disabled={count === 0} onClick={()=> dispatch(decrement()) }>Remove</button>
-        <button style={{'display': (count % 5 == 0 && count > 0) && 'none'}} onClick={() => handleValueChange(5)}>+5</button>
+      <div className='flex gap-3'>
+        <button className='cursor-pointer' onClick={() => dispatch(increment())}>Add</button>
+        <button className={`cursor-pointer ${count === 0 && 'opacity-50'}`} disabled={count === 0} onClick={()=> dispatch(decrement()) }>Remove</button>
+        <button className='cursor-pointer' style={{'display': (count % 5 == 0 && count > 0) && 'none'}} onClick={() => handleValueChange(5)}>+5</button>
       </div>
     </>
   )
