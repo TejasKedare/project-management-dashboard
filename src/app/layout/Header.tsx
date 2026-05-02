@@ -1,7 +1,8 @@
+import ToggleTheme from "@/shared/components/ToggleTheme";
 import { useSelector } from "react-redux";
 
 const Header = () => {
-  const count = useSelector((state: any) => state.counter.count);
+  const count = useSelector((state) => state.counter.count);
 
   return (
     <header className="bg-white border-b border-gray-200 shadow-sm">
@@ -16,6 +17,10 @@ const Header = () => {
 
         {/* Right Section */}
         <div className="flex items-center gap-6">
+
+          <div >
+            <ToggleTheme/>
+          </div>
 
           {/* Counter */}
           <div className="text-sm text-gray-600">
