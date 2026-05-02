@@ -104,7 +104,6 @@
 
 * [ ] Add toast notifications (success/error)
 * [ ] Implement optimistic UI updates
-* [ ] Add skeleton loaders
 * [ ] Add empty states
 * [ ] Make UI responsive
 

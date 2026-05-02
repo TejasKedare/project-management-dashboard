@@ -13,9 +13,13 @@ createRoot(document.getElementById('root')!).render(
   <StrictMode>
     <QueryClientProvider  client={queryClient}>
     <Provider store={store}>
-      <Header />
-      <AppRoutes />
-      <Footer />
+        <div className="flex flex-col min-h-screen">
+          <Header />
+          <main className="flex-1">
+            <AppRoutes />
+          </main>
+          <Footer />
+        </div>
     </Provider>
     </QueryClientProvider>
   </StrictMode>,
